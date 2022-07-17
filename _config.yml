@@ -1,0 +1,26 @@
+title: First Ruby Friend
+email: andy@goodscary.com
+description: "Matching early career devs with friendly volunteer mentors from the community"
+url: "https://firstrubyfriend.org"
+
+color: "#b91c1c"
+
+permalink: /:slug/
+
+plugins:
+  - jekyll-seo-tag
+
+include:
+  - _redirects
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - javascripts/
+  - node_modules/
+  - package.json
+  - package-lock.json
+  - README.md
+  - stylesheets/
+  - tailwind.config.js
+  - yarn.lock

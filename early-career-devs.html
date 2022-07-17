@@ -1,0 +1,108 @@
+---
+layout: default
+permalink: "/early-career-devs"
+title: "Early Career Developer Mentorship"
+description: ""
+---
+
+<div class="bg-white">
+	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+		<div class="pb-12 lg:text-center">
+			<h1 class="font-sentient text-3xl font-bold tracking-tight sm:text-4xl font-sentient">
+				Six half-hour calls with a new
+				<span class="text-transparent font-extrabold bg-clip-text bg-gradient-to-br from-red-600 to-red-800">
+					#rubyfriend
+				</span>
+			</h1>
+	
+			<p class="text-xl text-gray-600">
+				A space to ask questions about starting a career as a software engineer
+			</p>
+		</div>
+
+		<div class="lg:text-center pb-12">
+			<h2 class="font-sentient text-base text-red-700 font-semibold tracking-wide uppercase">Wait what?</h2>
+			<p class="font-sentient mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">A space for you to ask questions</p>
+			<p class="mt-4 max-w-2xl text-xl text-gray-700 lg:mx-auto">
+				Volunteer, experienced, developers from the Ruby community will answer your questions and welcome you into our community.
+			</p>
+			<p class="mt-4 max-w-2xl text-xl text-gray-700 lg:mx-auto">
+				Whether you’re looking for programming advice, interview practice or just trying to work your way into your new career.
+			</p>
+		</div>
+
+		{%
+			include cta.html
+				img_src="/images/luke.jpg"
+				img_alt="Yoda in the bushes"
+				header="Apply Now"
+				title="5 minutes is all you need"
+				description="There’s a brief but thorough questionnaire to complete and then we’ll get back to you with a match at the start of next month."
+				link_href="https://forms.reform.app/goodscary/find-a-rubyfriend-applicant/pbr875"
+				link_text="Get a mentor"
+		%}
+
+		<!-- Photo by <a href="https://unsplash.com/@studbee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Studbee</a> on <a href="https://unsplash.com/s/photos/skywalker?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> -->
+  
+		<div class="sm:bg-gray-50 sm:rounded md:rounded-xl mt-12 max-w-5xl mx-auto">
+			<div class="py-4 divide-y divide-gray-200 sm:p-8 lg:p-12">
+			  	<h2 class="font-sentient text-3xl font-extrabold text-gray-900">Frequently asked questions</h2>
+			  	<div class="mt-8">
+					<dl class="divide-y divide-gray-200">
+					  	<div class="pt-6 pb-8 md:grid md:grid-cols-12 md:gap-8">
+							{% 
+								include faq.html
+									q="What should we talk about?"
+									a="You should ask whatever you want. Bear in mind your mentor may not know the answer (we’re just people too) or have their own take."
+							%}
+							{% 
+								include faq.html
+									q="How honest should I be?"
+									a="There’s no point in doing this if you aren’t going to be honest."
+							%}
+							{% 
+								include faq.html
+									q="Should I let my manager at work know about this?"
+									a="You can, no need for it to be a secret. You may have a mentor or buddy, as well as a line manager in your workplace. This of this as another usful viewpoint."
+							%}
+							{% 
+								include faq.html
+									q="When will I hear about my match?"
+									a="I’ll be shipping cohorts of matches at beginning of each month for the folks who submitted applications the month before. It'll be first-come, first-served, but I’ll prioritise those from under-represented groups."
+							%}
+							{% 
+								include faq.html
+									q="How long does this programme last?"
+									a="We’re expecting half-hour long monthly calls, for six months. If you (in agreement with your mentee) want to go for longer or shorter, or meet more often, go for it. But the base expecation is six half-hour calls over six months."
+							%}
+							{% 
+								include faq.html
+									q="How should we meet?"
+									a="Primarily I’d expect folks to meet using Zoom, Tuple or Facetime. There might be cases where in person meetings might be possible, but distinctly not required."
+							%}
+							{% 
+								include faq.html
+									q="What are the criteria for matching folks up?"
+									a="We’ll take a couple of factors into account including your preferences. Primarily we’ll want to understand what you are looking for plus we’ll keep you together geographically."
+							%}
+							{% 
+								include faq.html
+									q="What if my mentor doesn’t respond or disappears?"
+									a="We’ll be sending out reminders to both parties so hopefully this won't happen. If it does, never fear, you can get in touch with me and we’ll sort it out."
+							%}
+							{% 
+								include faq.html
+									q="What if it doesn’t work out?"
+									a="Sometimes you just don’t gel with someone new. That’s ok and either party can stop the process at any time."
+							%}
+							{% 
+								include faq.html
+									q="Can I speak to multiple mentors?"
+									a="In theory, yes, but that's on you. You’re only gonna get one here!"
+							%}
+				  		</div>
+					</dl>
+			  	</div>
+			</div>
+	</div>
+</div>
