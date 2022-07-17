@@ -12,7 +12,7 @@ plugins:
 
 twitter:
   username: firstrubyfriend
-  card: summary
+  card: summary_large_image
 
 logo: "/android-chrome-512x512.png"
 include:
