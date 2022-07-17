@@ -16,7 +16,7 @@ description: ""
 			</h1>
 	
 			<p class="text-xl text-gray-600">
-				A space to ask questions about starting a career as a software engineer
+				A space to ask questions about starting a career as a Ruby/Rails software engineer
 			</p>
 		</div>
 
@@ -34,7 +34,7 @@ description: ""
 		{%
 			include cta.html
 				img_src="/images/luke.jpg"
-				img_alt="Yoda in the bushes"
+				img_alt="LEGO Luke Skywalker & R2-D2"
 				header="Apply Now"
 				title="5 minutes is all you need"
 				description="There’s a brief but thorough questionnaire to complete and then we’ll get back to you with a match at the start of next month."
@@ -52,8 +52,18 @@ description: ""
 					  	<div class="pt-6 pb-8 md:grid md:grid-cols-12 md:gap-8">
 							{% 
 								include faq.html
+									q="Do I qualify for this?"
+									a="Probably. Primarily this is for folks either in, or looking for, their first Ruby/Rails job. We welcome self-taught, bootcampers and college graduates."
+							%}
+							{% 
+								include faq.html
 									q="What should we talk about?"
 									a="You should ask whatever you want. Bear in mind your mentor may not know the answer (we’re just people too) or have their own take."
+							%}
+							{%
+								include faq.html
+									q="Is there a syllabus or structure to follow?"
+									a="No. This isn’t training. The mentor is contributing their time, and in exchange you’re contributing the effort necessary to decide & communicate what you want to get out of being mentored. A list of questions is fine!"
 							%}
 							{% 
 								include faq.html
@@ -63,22 +73,22 @@ description: ""
 							{% 
 								include faq.html
 									q="Should I let my manager at work know about this?"
-									a="You can, no need for it to be a secret. You may have a mentor or buddy, as well as a line manager in your workplace. This of this as another usful viewpoint."
+									a="You can, no need for it to be a secret. You may have a mentor or buddy, as well as a line manager in your workplace. Think of this as another usful viewpoint."
 							%}
 							{% 
 								include faq.html
 									q="When will I hear about my match?"
-									a="I’ll be shipping cohorts of matches at beginning of each month for the folks who submitted applications the month before. It'll be first-come, first-served, but I’ll prioritise those from under-represented groups."
+									a="I’ll be shipping cohorts of matches at the beginning of each month for the folks who submitted applications the month before. It'll be first-come, first-served, but I’ll prioritise those from under-represented groups."
 							%}
 							{% 
 								include faq.html
 									q="How long does this programme last?"
-									a="We’re expecting half-hour long monthly calls, for six months. If you (in agreement with your mentee) want to go for longer or shorter, or meet more often, go for it. But the base expecation is six half-hour calls over six months."
+									a="We’re expecting half-hour long monthly calls, for six months. If you (in agreement with your mentor) want to go for longer or shorter, or meet more often, go for it. But the base expecation is six half-hour calls over six months."
 							%}
 							{% 
 								include faq.html
 									q="How should we meet?"
-									a="Primarily I’d expect folks to meet using Zoom, Tuple or Facetime. There might be cases where in person meetings might be possible, but distinctly not required."
+									a="Primarily I’d expect folks to meet using Zoom, Google Meet, Tuple or FaceTime. There might be cases where in person meetings might be possible, but distinctly not required."
 							%}
 							{% 
 								include faq.html
