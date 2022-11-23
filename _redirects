@@ -1,0 +1,4 @@
+https://firstrubyfriend.netlify.app/*  https://firstrubyfriend.org/:splat 301!
+https://www.firstrubyfriend.org/*      https://firstrubyfriend.org/:splat 301!
+https://www.firstrubyfriend.com/*      https://firstrubyfriend.org/:splat 301!
+https://firstrubyfriend.com/*          https://firstrubyfriend.org/:splat 301!
