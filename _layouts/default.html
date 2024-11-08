@@ -1,79 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<!-- Required meta tags -->
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-		{% seo %}
+    {% seo %}
 
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-		<link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
 
-		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="{{ site.color }}">
-		<meta name="apple-mobile-web-app-title" content="{{ site.title }}">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="{{ site.color }}" />
+    <meta name="apple-mobile-web-app-title" content="{{ site.title }}" />
 
-		<meta name="msapplication-TileColor" content="{{ site.color }}">
-		<meta name="theme-color" content="#ffffff">
-		<meta name="application-name" content="{{ site.title }}">
+    <meta name="msapplication-TileColor" content="{{ site.color }}" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="application-name" content="{{ site.title }}" />
 
-		<link rel="stylesheet" href="/css/firstrubyfriend.css" />
-	</head>
-	<body class="">
-		{% include header.html %}
+    <link rel="stylesheet" href="/css/firstrubyfriend.css" />
+  </head>
+  <body class="">
+    {% include header.html %}
 
-		<div class="bg-white">
-			<div class="max-w-7xl lg:mx-auto py-8 px-4 lg:text-center lg:px-8 lg:py-16">
-				<div class="space-y-8 sm:space-y-12">
-					<div class="space-y-5 max-w-xl lg:max-w-7xl">
-						<div class="lg:flex justify-center">
-							<a class="inline-block w-1/5 md:w-2/12 lg:w-1/12" href="/">
-							 	<img src="/images/ruby-plus-one.svg" alt="Ruby + 1" />
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+    <div class="bg-white">
+      <div class="max-w-7xl lg:mx-auto py-8 px-4 lg:text-center lg:px-8 lg:py-16">
+        <div class="space-y-8 sm:space-y-12">
+          <div class="space-y-5 max-w-xl lg:max-w-7xl">
+            <div class="lg:flex justify-center">
+              <a class="inline-block w-1/5 md:w-2/12 lg:w-1/12" href="/">
+                <img src="/images/ruby-plus-one.svg" alt="Ruby + 1" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-		{{ content }}
+    {{ content }} {% include who.html %}
 
-		{% include who.html %}
-		
-		<div class="bg-slate-600 text-white py-8 px-4 lg:px-8 lg:py-16 mt-24">
-			<p class="text-center mb-4 text-slate-200 text-xs">...and also...</p>
-			<div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-8 md:gap-12">
-				<div class="text-center md:text-left">
-					<h5 class="font-bold text-lg">
-						<a href="https://andycroll.com/ruby" class="text-red-200 hover:text-red-400">One Ruby Thing</a>
-					</h5>
-					<p>An email explaining a Ruby/Rails technique every two weeks.</p>
-				</div>
+    <div class="bg-slate-600 text-white py-8 px-4 lg:px-8 lg:py-16 mt-24">
+      <p class="text-center mb-4 text-slate-200 text-xs">...and also...</p>
+      <div class="max-w-7xl mx-auto grid md:grid-cols-4 gap-8 md:gap-12">
+        <div class="text-center md:text-left">
+          <h5 class="font-bold text-lg">
+            <a href="https://andycroll.com/ruby" class="text-red-200 hover:text-red-400">One Ruby Thing</a>
+          </h5>
+          <p>An email explaining a Ruby/Rails technique every two weeks.</p>
+        </div>
 
-				<div class="text-center md:text-left">
-					<h5 class="font-bold text-lg">
-						<a href="https://brightonruby.com/" class="text-red-200 hover:text-red-400">Brighton Ruby</a>
-					</h5>
-					<p>A single-day, single track ruby conference on the south coast of the UK.</p>
-				</div>
+        <div class="text-center md:text-left">
+          <h5 class="font-bold text-lg">
+            <a href="https://brightonruby.com/" class="text-red-200 hover:text-red-400">Brighton Ruby</a>
+          </h5>
+          <p>A single-day, single track ruby conference on the south coast of the UK.</p>
+        </div>
 
-				<div class="text-center md:text-left">
-					<h5 class="font-bold text-lg">
-						<a href="http://andycroll.com" class="text-red-200 hover:text-red-400">Andy Croll</a>
-					</h5>
-					<p>Andy Croll, the bloke who made this thing.</p>
-				</div>
-		
-				<div class="text-center md:text-left">
-					<h5 class="font-bold text-lg">
-						<a href="http://chatsinthecupboard.com" class="text-red-200 hover:text-red-400">Chats in the Cupboard</a>
-					</h5>
-					<p>A podcast between a cupboard in Portland, USA, and a spare bedroom in Brighton, UK.</p>
-				</div>
-			</div>
-		</div>
-		<script src="https://cdn.usefathom.com/script.js" data-site="RXJXTAVO" defer></script>
-	</body>
+        <div class="text-center md:text-left">
+          <h5 class="font-bold text-lg">
+            <a href="http://andycroll.com" class="text-red-200 hover:text-red-400">Andy Croll</a>
+          </h5>
+          <p>Andy Croll, the bloke who made this thing.</p>
+        </div>
+
+        <div class="text-center md:text-left">
+          <h5 class="font-bold text-lg">
+            <a href="http://usingrails.com" class="text-red-200 hover:text-red-400">Using Rails</a>
+          </h5>
+          <p>A list of over 2,000 organisations using Ruby on Rails. Add your company!</p>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.usefathom.com/script.js" data-site="RXJXTAVO" defer></script>
+  </body>
 </html>
